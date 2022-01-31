@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c2b2c9f347a437345bfde8ce4f92796b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Novecento wide
+  fontNames:
+  - Novecento wide
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8275b98bc3329b04b88de12e07e92e0e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
