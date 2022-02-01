@@ -10,6 +10,8 @@ public class TextTyper : MonoBehaviour
     private string text;
     private int length;
 
+    [SerializeField] private float waitDuration;
+
     void Start()
     {
         textBox = GetComponent<TextMeshProUGUI>();
@@ -21,6 +23,10 @@ public class TextTyper : MonoBehaviour
 
     private IEnumerator Type()
     {
+        textBox.SetText("");
+
+        yield return new WaitForSeconds(waitDuration);
+
         for(int i = 0; i < length + 1; i++)
         {
             textBox.SetText(text.Substring(0, i));

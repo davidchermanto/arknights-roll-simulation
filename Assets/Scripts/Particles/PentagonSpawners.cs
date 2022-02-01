@@ -17,12 +17,21 @@ public class PentagonSpawners : MonoBehaviour
     [SerializeField] private int maxYDown;
     [SerializeField] private int maxYUp;
 
-    [SerializeField] private int minSize;
-    [SerializeField] private int maxSize;
+    [SerializeField] private float minSize;
+    [SerializeField] private float maxSize;
+
+    [SerializeField] private float initialWait;
 
     private void Start()
     {
-        for(int i = 0; i < Random.Range(countMin, countMax); i++)
+        StartCoroutine(Spawn());
+    }
+
+    private IEnumerator Spawn()
+    {
+        yield return new WaitForSeconds(initialWait);
+
+        for (int i = 0; i < Random.Range(countMin, countMax); i++)
         {
             GameObject newPentagon = Instantiate(prefab);
 
@@ -30,8 +39,8 @@ public class PentagonSpawners : MonoBehaviour
             newPentagon.transform.position = new Vector3(Random.Range(maxXLeft, maxXRight), Random.Range(maxYDown, maxYUp));
             newPentagon.transform.localRotation = Quaternion.Euler(0, 0, Random.Range(0, 360f));
 
-            int size = Random.Range(minSize, maxSize);
-            newPentagon.transform.localScale = new Vector3(size, size, 1);
+            float size = Random.Range(minSize, maxSize);
+            newPentagon.transform.localScale = new Vector3(newPentagon.transform.localScale.x * size, newPentagon.transform.localScale.y * size, 1);
         }
     }
 }
