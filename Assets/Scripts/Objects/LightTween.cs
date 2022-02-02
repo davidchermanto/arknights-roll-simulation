@@ -27,7 +27,7 @@ public class LightTween : MonoBehaviour
         {
             timer += Time.deltaTime / fadeDuration;
 
-            globalLight.intensity = Mathf.Lerp(currentIntensity, targetIntensity, timer);
+            globalLight.intensity = Mathf.Lerp(currentIntensity, targetIntensity, Mathf.SmoothStep(0, 1, timer));
 
             yield return new WaitForEndOfFrame();
         }

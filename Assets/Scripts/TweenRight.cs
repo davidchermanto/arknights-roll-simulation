@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TweenRight : MonoBehaviour
 {
+    [SerializeField] private bool UI;
+
     [SerializeField] private float distance;
     [SerializeField] private float duration;
 
@@ -16,8 +18,20 @@ public class TweenRight : MonoBehaviour
     {
         float timer = 0;
 
+        float width = Screen.currentResolution.width;
+        float height = Screen.currentResolution.height;
+
         Vector3 initialPos = transform.position;
-        Vector3 targetPos = new Vector3(initialPos.x + distance, initialPos.y);
+        Vector3 targetPos;
+
+        if (UI)
+        {
+            targetPos = new Vector3(initialPos.x + (distance * height / 100), initialPos.y);
+        }
+        else
+        {
+            targetPos = new Vector3(initialPos.x + distance, initialPos.y);
+        }
 
         while(timer < 1)
         {

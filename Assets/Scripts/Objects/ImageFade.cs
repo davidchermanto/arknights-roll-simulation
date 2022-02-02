@@ -9,14 +9,15 @@ public class ImageFade : MonoBehaviour
     [SerializeField] private float holdTime;
     [SerializeField] private float fadeTime;
 
-    private float initialAlpha;
+    [SerializeField] private float initialAlpha = 1;
     private Image image;
 
     // Start is called before the first frame update
     void Start()
     {
         image = GetComponent<Image>();
-        initialAlpha = image.color.a;
+        image.color = new Color(image.color.r,
+            image.color.g, image.color.b, initialAlpha);
 
         StartCoroutine(Fade());
     }
