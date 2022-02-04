@@ -12,7 +12,8 @@ public class Flash : MonoBehaviour
     [SerializeField] private float opacityMin;
     [SerializeField] private float opacityMax;
     [SerializeField] private float flashInterval;
-    [SerializeField] private float flashInitialDelay;
+    [SerializeField] private float flashInitialDelayMin;
+    [SerializeField] private float flashInitialDelayMax;
 
     [SerializeField] private float scaleX;
     [SerializeField] private float scaleY;
@@ -31,7 +32,7 @@ public class Flash : MonoBehaviour
 
     private IEnumerator StartFlash()
     {
-        yield return new WaitForSeconds(flashInitialDelay);
+        yield return new WaitForSeconds(Random.Range(flashInitialDelayMin, flashInitialDelayMax));
 
         float repeatCurrent = 0;
 
