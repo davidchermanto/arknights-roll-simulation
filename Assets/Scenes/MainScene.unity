@@ -362,8 +362,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24378730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.7, y: 2.4, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalPosition: {x: -2.7, y: 2.8, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 68525482}
   m_RootOrder: 2
@@ -407,7 +407,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 18
-  m_Sprite: {fileID: 21300000, guid: 911a7cf4453886f4eb36aad880e66b25, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e807df2aacf94f43b6994131d8902c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1210,7 +1210,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c65e8c364baf1b4b98577fcc8e99895, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26f7ed05ec924b64482a90d491a9c6e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1798,7 +1798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CASTER
+  m_text: YOUTUBER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 724229f1ab5c79e41899db420a93da50, type: 2}
   m_sharedMaterial: {fileID: -7687816478344090065, guid: 724229f1ab5c79e41899db420a93da50,
@@ -7215,9 +7215,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hello, Doctor. Code name Suffering. Why did I apply? Well, I've heard that
-    Mostima's here since she left Penguin Logistics. Ah, she's on leave right now...?
-    Well, that's a shame.
+  m_text: Welcome to an Arknights EN Dub video. I'm the tour guide, Texas. If you
+    like and subscribe, we will also send you prayers for your next pull session.
+    How does that sound?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 224bbc961a5d25c4c88e0542bf76e429, type: 2}
   m_sharedMaterial: {fileID: -5248024556995201947, guid: 224bbc961a5d25c4c88e0542bf76e429,
@@ -8395,6 +8395,97 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099679413}
   m_CullTransparentMesh: 0
+--- !u!1 &1183721457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1183721458}
+  - component: {fileID: 1183721459}
+  - component: {fileID: 1183721460}
+  m_Layer: 0
+  m_Name: SpriteLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1183721458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183721457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.1, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1939466573}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1183721459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183721457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 2
+  m_BlendStyleIndex: 1
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 21300000, guid: c2c5d6db5f66b7b4fb87206b4e0eda3d,
+    type: 3}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1183721460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183721457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7535f31968be8b44db9dee4eff377929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minIntensity: 0
+  maxIntensity: 0.06
+  interval: 0.7
+  timer: 0
+  isIncreasing: 0
 --- !u!1 &1212312803
 GameObject:
   m_ObjectHideFlags: 0
@@ -8476,8 +8567,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265983740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5, y: -1, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 1, y: -2.72, z: 0}
+  m_LocalScale: {x: 1.7, y: 1.7, z: 1}
   m_Children: []
   m_Father: {fileID: 68525482}
   m_RootOrder: 0
@@ -8521,7 +8612,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 434f1c172e3eb3644b83f8b5275a3e30, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c41269008d09ebe49bb37b8761ae2cfa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13807,7 +13898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9498e87df1535b0489e3a9e523c2af38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flashCount: 16
+  flashCount: 20
   opacityMin: 0.1
   opacityMax: 0.25
   flashInterval: 0.05
@@ -14291,7 +14382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UI: 1
-  distance: 12.8
+  distance: 9.6
   duration: 30
 --- !u!1 &1916147808
 GameObject:
@@ -14349,7 +14440,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Suffering
+  m_text: Edenoid
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 224bbc961a5d25c4c88e0542bf76e429, type: 2}
   m_sharedMaterial: {fileID: -5248024556995201947, guid: 224bbc961a5d25c4c88e0542bf76e429,
@@ -14457,6 +14548,7 @@ Transform:
   - {fileID: 998137655}
   - {fileID: 1337147611}
   - {fileID: 1369493552}
+  - {fileID: 1183721458}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
