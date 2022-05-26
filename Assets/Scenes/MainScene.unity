@@ -363,7 +363,7 @@ Transform:
   m_GameObject: {fileID: 24378730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.7, y: 2.8, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 68525482}
   m_RootOrder: 2
@@ -407,7 +407,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 18
-  m_Sprite: {fileID: 21300000, guid: 9e807df2aacf94f43b6994131d8902c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 911a7cf4453886f4eb36aad880e66b25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1210,7 +1210,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 26f7ed05ec924b64482a90d491a9c6e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 50c3cff586730194592bc66f18a7bc10, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1798,7 +1798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YOUTUBER
+  m_text: Defender
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 724229f1ab5c79e41899db420a93da50, type: 2}
   m_sharedMaterial: {fileID: -7687816478344090065, guid: 724229f1ab5c79e41899db420a93da50,
@@ -8567,7 +8567,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265983740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: -2.72, z: 0}
+  m_LocalPosition: {x: 1, y: -0.8, z: 0}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1}
   m_Children: []
   m_Father: {fileID: 68525482}
@@ -8612,7 +8612,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: c41269008d09ebe49bb37b8761ae2cfa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b17525097ea6a44f9226e2a2257d0c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14440,7 +14440,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Edenoid
+  m_text: Zhongli
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 224bbc961a5d25c4c88e0542bf76e429, type: 2}
   m_sharedMaterial: {fileID: -5248024556995201947, guid: 224bbc961a5d25c4c88e0542bf76e429,
