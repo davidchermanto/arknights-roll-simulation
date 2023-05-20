@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c65e8c364baf1b4b98577fcc8e99895, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40ac2ee6e44d9ab458d503ab60518c51, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1765,7 +1765,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CASTER
+  m_text: SNIPER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 724229f1ab5c79e41899db420a93da50, type: 2}
   m_sharedMaterial: {fileID: -7687816478344090065, guid: 724229f1ab5c79e41899db420a93da50,
@@ -7152,9 +7152,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Greetings, Doctor. I am Lin Yuhsia, President of the Lungmen Young Entrepreneurs'
-    Association. I am here under a contract to assist Rhodes Island with my Arts.
-    I hope you don't hold me back too much.
+  m_text: sadoqwmdofqpfennp
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 224bbc961a5d25c4c88e0542bf76e429, type: 2}
   m_sharedMaterial: {fileID: -5248024556995201947, guid: 224bbc961a5d25c4c88e0542bf76e429,
@@ -8474,8 +8472,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265983740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.44, y: -1.47, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 1, y: 0.2, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 68525482}
   m_RootOrder: 0
@@ -8519,7 +8517,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 41850b0b2b77a9c458e4524a0eb60a25, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4bf27876583ea74a81a354a52274466, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8941,7 +8939,7 @@ GameObject:
   m_Layer: 5
   m_Name: TextBox
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2800000, guid: 3e471b9fad7264146aa03aca58b27957, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -14347,7 +14345,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Yuhsia
+  m_text: Karin
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 224bbc961a5d25c4c88e0542bf76e429, type: 2}
   m_sharedMaterial: {fileID: -5248024556995201947, guid: 224bbc961a5d25c4c88e0542bf76e429,
