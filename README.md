@@ -9,9 +9,11 @@ This is an unofficial fan project for Arknights, a game developed by Hypergryph.
 This is a small project aimed to recreate the gacha roll screen from Arknights using Unity.
 
 An example of the original screen:
+
 ![](https://github.com/davidchermanto/arknights-roll/blob/master/Samples/OriginalSim.gif)
 
 The recreation using this tool:
+
 ![](https://github.com/davidchermanto/arknights-roll/blob/master/Samples/SampleSim.gif)
 
 ## Setting Up
