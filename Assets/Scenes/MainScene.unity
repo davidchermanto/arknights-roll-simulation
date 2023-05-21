@@ -363,7 +363,7 @@ Transform:
   m_GameObject: {fileID: 24378730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.7, y: 2.76, z: 0}
-  m_LocalScale: {x: 1.7, y: 1.7, z: 1}
+  m_LocalScale: {x: 2.4, y: 2.4, z: 1}
   m_Children: []
   m_Father: {fileID: 68525482}
   m_RootOrder: 1
@@ -407,7 +407,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 18
-  m_Sprite: {fileID: 21300000, guid: a537dee305194ce4082e30d73608fa50, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 911a7cf4453886f4eb36aad880e66b25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 40ac2ee6e44d9ab458d503ab60518c51, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 50c3cff586730194592bc66f18a7bc10, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1765,7 +1765,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SNIPER
+  m_text: DEFENDER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 724229f1ab5c79e41899db420a93da50, type: 2}
   m_sharedMaterial: {fileID: -7687816478344090065, guid: 724229f1ab5c79e41899db420a93da50,
@@ -7152,7 +7152,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: sadoqwmdofqpfennp
+  m_text: A new contract? Okay. I'm still on leave, but I can accompany you for a
+    while. What name should I use on the contract? I have a great many names, though
+    when on leave... I tend to go by Zhongli.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 224bbc961a5d25c4c88e0542bf76e429, type: 2}
   m_sharedMaterial: {fileID: -5248024556995201947, guid: 224bbc961a5d25c4c88e0542bf76e429,
@@ -8404,7 +8406,7 @@ GameObject:
   m_Layer: 5
   m_Name: MovingGroup
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -8473,7 +8475,7 @@ Transform:
   m_GameObject: {fileID: 1265983740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 0.2, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.6, z: 1}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_Children: []
   m_Father: {fileID: 68525482}
   m_RootOrder: 0
@@ -8517,7 +8519,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: e4bf27876583ea74a81a354a52274466, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b17525097ea6a44f9226e2a2257d0c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14345,7 +14347,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Karin
+  m_text: 'Zhongli
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 224bbc961a5d25c4c88e0542bf76e429, type: 2}
   m_sharedMaterial: {fileID: -5248024556995201947, guid: 224bbc961a5d25c4c88e0542bf76e429,
