@@ -18,6 +18,8 @@ The recreation using this tool:
 
 ## Setting Up
 
+The version of Unity used is LTS 2019.4.21f1. You can try any newer versions at your own risk.
+
 There are no dependencies; setting up is extremely simple.
 
 * Open up MainScene.unity.
